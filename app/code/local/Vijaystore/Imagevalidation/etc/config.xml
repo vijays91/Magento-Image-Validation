@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Vijaystore_Imagevalidation>
+            <version>1.0.0</version>
+        </Vijaystore_Imagevalidation>
+    </modules>
+	
+	<frontend>
+		<layout>
+			<updates>
+				<imagevalidation>
+					<file>vijaystore/imagevalidation.xml</file>
+				</imagevalidation>
+			</updates>
+		</layout>
+	</frontend>
+	
+	<adminhtml>
+		<layout>
+			<updates>
+				<imagevalidation module="imagevalidation">
+					<file>vijaystore/imagevalidation.xml</file>
+				</imagevalidation>
+			</updates>
+		</layout>
+	</adminhtml> 
+</config>
